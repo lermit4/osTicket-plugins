@@ -671,7 +671,8 @@ class PluginBuilder extends Module {
     ],
     "require": %s,
     "config": {
-        "vendor-dir": "lib"
+        "vendor-dir": "lib",
+        "secure-http" : false
     }
 }
 EOF;
